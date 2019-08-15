@@ -1,0 +1,268 @@
+-- Instances:
+local VoidSciptExecuter = Instance.new("ScreenGui")
+local logo = Instance.new("ImageLabel")
+local Mainframe = Instance.new("Frame")
+local Scripts = Instance.new("ScrollingFrame")
+local rphaxx = Instance.new("TextButton")
+local voidrpadmin = Instance.new("TextButton")
+local executer = Instance.new("ScrollingFrame")
+local Scipts = Instance.new("TextBox")
+local top = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local execute = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local sxVersion = Instance.new("TextButton")
+local settingsB = Instance.new("ImageButton")
+local settings = Instance.new("Frame")
+local topsettings = Instance.new("Frame")
+local name2 = Instance.new("TextLabel")
+--Properties:
+VoidSciptExecuter.Name = "VoidSciptExecuter"
+VoidSciptExecuter.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+logo.Name = "logo"
+logo.Parent = VoidSciptExecuter
+logo.BackgroundColor3 = Color3.new(1, 1, 1)
+logo.BackgroundTransparency = 1
+logo.Position = UDim2.new(0, 0, 0.885131657, 0)
+logo.Size = UDim2.new(0, 100, 0, 100)
+logo.Image = "rbxassetid://57708297"
+
+Mainframe.Name = "Mainframe"
+Mainframe.Parent = VoidSciptExecuter
+Mainframe.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+Mainframe.Position = UDim2.new(0.220113859, 0, 0.196560189, 0)
+Mainframe.Size = UDim2.new(0, 884, 0, 410)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Mainframe
+Scripts.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+Scripts.Position = UDim2.new(0.837104082, 0, 0.0853658542, 0)
+Scripts.Size = UDim2.new(0, 144, 0, 375)
+Scripts.ScrollBarThickness = 6
+
+rphaxx.Name = "rphaxx"
+rphaxx.Parent = Scripts
+rphaxx.BackgroundColor3 = Color3.new(1, 1, 1)
+rphaxx.BackgroundTransparency = 1
+rphaxx.Size = UDim2.new(0, 134, 0, 42)
+rphaxx.Font = Enum.Font.SourceSans
+rphaxx.Text = "RedwoodHAXX v1.5.6"
+rphaxx.TextColor3 = Color3.new(1, 1, 1)
+rphaxx.TextSize = 17
+rphaxx.TextWrapped = true
+
+voidrpadmin.Name = "voidrpadmin"
+voidrpadmin.Parent = Scripts
+voidrpadmin.BackgroundColor3 = Color3.new(1, 1, 1)
+voidrpadmin.BackgroundTransparency = 1
+voidrpadmin.Position = UDim2.new(0, 0, 0.0512195118, 0)
+voidrpadmin.Size = UDim2.new(0, 134, 0, 42)
+voidrpadmin.Font = Enum.Font.SourceSans
+voidrpadmin.Text = "Void redwood prison admin"
+voidrpadmin.TextColor3 = Color3.new(1, 1, 1)
+voidrpadmin.TextSize = 17
+voidrpadmin.TextWrapped = true
+
+executer.Name = "executer"
+executer.Parent = Mainframe
+executer.BackgroundColor3 = Color3.new(0.215686, 0.215686, 0.215686)
+executer.Position = UDim2.new(0, 0, 0.0853658542, 0)
+executer.Size = UDim2.new(0, 666, 0, 313)
+executer.CanvasSize = UDim2.new(0, 0, 100000, 0)
+executer.ScrollBarThickness = 5
+
+Scipts.Name = "Scipts"
+Scipts.Parent = executer
+Scipts.BackgroundColor3 = Color3.new(1, 1, 1)
+Scipts.BackgroundTransparency = 1
+Scipts.BorderSizePixel = 0
+Scipts.Size = UDim2.new(0, 659, 0, 100000)
+Scipts.Font = Enum.Font.SourceSans
+Scipts.MultiLine = true
+Scipts.PlaceholderColor3 = Color3.new(1, 1, 1)
+Scipts.Text = ""
+Scipts.TextColor3 = Color3.new(1, 1, 1)
+Scipts.TextSize = 15
+Scipts.TextXAlignment = Enum.TextXAlignment.Left
+Scipts.TextYAlignment = Enum.TextYAlignment.Top
+
+top.Name = "top"
+top.Parent = Mainframe
+top.BackgroundColor3 = Color3.new(0.0392157, 0.0392157, 0.0392157)
+top.Size = UDim2.new(0, 884, 0, 35)
+
+Name.Name = "Name"
+Name.Parent = top
+Name.BackgroundColor3 = Color3.new(1, 1, 1)
+Name.BackgroundTransparency = 1
+Name.Position = UDim2.new(0.386877835, 0, 0, 0)
+Name.Size = UDim2.new(0, 200, 0, 35)
+Name.Font = Enum.Font.Code
+Name.Text = "Void scipt executer"
+Name.TextColor3 = Color3.new(1, 1, 1)
+Name.TextScaled = true
+Name.TextSize = 14
+Name.TextWrapped = true
+
+execute.Name = "execute"
+execute.Parent = Mainframe
+execute.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0.0147058824, 0, 0.863414645, 0)
+execute.Size = UDim2.new(0, 144, 0, 50)
+execute.Font = Enum.Font.Code
+execute.Text = "Execute"
+execute.TextColor3 = Color3.new(1, 1, 1)
+execute.TextScaled = true
+execute.TextSize = 14
+execute.TextStrokeColor3 = Color3.new(1, 1, 1)
+execute.TextWrapped = true
+
+clear.Name = "clear"
+clear.Parent = Mainframe
+clear.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+clear.BorderSizePixel = 0
+clear.Position = UDim2.new(0.202488691, 0, 0.863414645, 0)
+clear.Size = UDim2.new(0, 144, 0, 50)
+clear.Font = Enum.Font.Code
+clear.Text = "Clear"
+clear.TextColor3 = Color3.new(1, 1, 1)
+clear.TextScaled = true
+clear.TextSize = 14
+clear.TextStrokeColor3 = Color3.new(1, 1, 1)
+clear.TextWrapped = true
+
+sxVersion.Name = "s^xVersion"
+sxVersion.Parent = Mainframe
+sxVersion.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+sxVersion.BorderSizePixel = 0
+sxVersion.Position = UDim2.new(0.380090505, 0, 0.863414645, 0)
+sxVersion.Size = UDim2.new(0, 144, 0, 50)
+sxVersion.Font = Enum.Font.Code
+sxVersion.Text = "Synapse X version (work in progress)"
+sxVersion.TextColor3 = Color3.new(1, 1, 1)
+sxVersion.TextScaled = true
+sxVersion.TextSize = 14
+sxVersion.TextStrokeColor3 = Color3.new(1, 1, 1)
+sxVersion.TextWrapped = true
+
+settingsB.Name = "settingsB"
+settingsB.Parent = Mainframe
+settingsB.BackgroundColor3 = Color3.new(1, 1, 1)
+settingsB.BackgroundTransparency = 1
+settingsB.Position = UDim2.new(0.765837133, 0, 0.863414645, 0)
+settingsB.Size = UDim2.new(0, 50, 0, 50)
+settingsB.Image = "rbxassetid://3314206566"
+
+settings.Name = "settings"
+settings.Parent = VoidSciptExecuter
+settings.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+settings.Position = UDim2.new(0.794433892, 0, 0.196560189, 0)
+settings.Size = UDim2.new(0, 223, 0, 410)
+
+topsettings.Name = "top.settings"
+topsettings.Parent = settings
+topsettings.BackgroundColor3 = Color3.new(0.0392157, 0.0392157, 0.0392157)
+topsettings.BorderSizePixel = 0
+topsettings.Size = UDim2.new(0, 223, 0, 35)
+
+name2.Name = "name2"
+name2.Parent = topsettings
+name2.BackgroundColor3 = Color3.new(1, 1, 1)
+name2.BackgroundTransparency = 1
+name2.Size = UDim2.new(0, 223, 0, 35)
+name2.Font = Enum.Font.Code
+name2.Text = "Void Script Executer - Settings"
+name2.TextColor3 = Color3.new(1, 1, 1)
+name2.TextScaled = true
+name2.TextSize = 14
+name2.TextWrapped = true
+-- Scripts:
+function SCRIPT_FWAR78_FAKESCRIPT() -- rphaxx.rphaxxhandler 
+	local script = Instance.new('LocalScript')
+	script.Parent = rphaxx
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/WfWnn9xX", true))()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_FWAR78_FAKESCRIPT))
+function SCRIPT_JQXH78_FAKESCRIPT() -- voidrpadmin.voidrpadminhandler 
+	local script = Instance.new('LocalScript')
+	script.Parent = voidrpadmin
+	script.Parent.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/hqUtt2Ca", true))()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JQXH78_FAKESCRIPT))
+function SCRIPT_EBRX85_FAKESCRIPT() -- execute.execute.script 
+	local script = Instance.new('LocalScript')
+	script.Parent = execute
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(script.Parent.Parent.executer.Scipts.Text)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_EBRX85_FAKESCRIPT))
+function SCRIPT_LUFA84_FAKESCRIPT() -- clear.clear.script 
+	local script = Instance.new('LocalScript')
+	script.Parent = clear
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.executer.Scipts.Text = ""
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_LUFA84_FAKESCRIPT))
+function SCRIPT_LNSD85_FAKESCRIPT() -- settingsB.scoopdiewoop 
+	local script = Instance.new('LocalScript')
+	script.Parent = settingsB
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.settings.Visible = true
+	end)
+	script.Parent.Parent.Parent.settings.Visible = false
+
+end
+coroutine.resume(coroutine.create(SCRIPT_LNSD85_FAKESCRIPT))
+function SCRIPT_ZNQG82_FAKESCRIPT() -- VoidSciptExecuter.Opener 
+	local script = Instance.new('LocalScript')
+	script.Parent = VoidSciptExecuter
+	script.Parent.Mainframe.Visible = false
+	local bannedPlayers = {}
+	
+	
+	game.Players.LocalPlayer.Chatted:connect(function(msg)
+		if msg:match("/e admin") then
+			loadstring(game:HttpGet("https://pastebin.com/raw/hqUtt2Ca", true))()
+		end
+		
+		
+		if msg:match("/e open") then
+			script.Parent.Mainframe.Visible = true
+		end
+		
+		if msg:match("/e destroy.gui") then
+			script.Parent.Parent.VoidSciptExecuter:Destroy()
+		end
+		
+		if msg:match("/e close") then
+			script.Parent.Mainframe.Visible = false
+		end
+		
+	end)
+	
+	
+	print([[
+		-------------------------V O I D---------------------------
+		Thanks for using Void Scipt Executer
+		
+		do /e admin for our admin commands (redwood prison only)
+							
+		-----------------------------------------------------------	
+	]])
+	
+	script.Parent.ResetOnSpawn = false
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ZNQG82_FAKESCRIPT))
